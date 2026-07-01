@@ -1,0 +1,18 @@
+identifier: KSP-Redux
+name: KSP-Redux
+abstract: Brings KSP into KSA
+author:
+  - PlazmaBoltz
+  - KerbalChris
+  - Derpikus
+  - _emu__
+license: MIT
+$kref: '#/ckan/github/PlazmaBoltz/KSP-Redux'
+release_status: stable
+resources:
+  spacedock: https://spacedock.info/mod/4040/KSP-Redux
+  homepage: https://forums.ahwoo.com/threads/ksp-redux.338/
+  repository: https://github.com/PlazmaBoltz/KSP-Redux
+tags:
+  - planet-pack
+ksp_version: 2026.6.9.4750
