@@ -16,3 +16,6 @@ resources:
 tags:
   - planet-pack
 ksp_version: 2026.6.9.4750
+x_netkan_version_edit:
+  find: '^Update\((.+)\)$'
+  replace: '${1}'
