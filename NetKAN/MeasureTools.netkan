@@ -1,0 +1,17 @@
+identifier: MeasureTools
+name: MeasureTools
+abstract: Click-to-measure ruler and protractor tools for Kitten Space Agency.
+author: Maxi
+license: MIT
+$kref: '#/ckan/github/Maximilian-Nesslauer/KSA-MeasureTools'
+release_status: stable
+resources:
+  homepage: https://forums.ahwoo.com/threads/measuretools.992/
+  spacedock: https://spacedock.info/mod/4319/MeasureTools
+  repository: https://github.com/Maximilian-Nesslauer/KSA-MeasureTools
+tags:
+  - information
+ksp_version: 2026.6.9.4750
+x_netkan_version_edit:
+  find: '^v(.+)$'
+  replace: '${1}'

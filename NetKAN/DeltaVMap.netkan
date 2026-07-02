@@ -1,0 +1,17 @@
+identifier: DeltaVMap
+name: DeltaVMap
+abstract: An interactive, auto-generated delta-v subway map and transfer-window planner for Kitten Space Agency.
+author: Maxi
+license: MIT
+$kref: '#/ckan/github/Maximilian-Nesslauer/KSA-DeltaVMap'
+release_status: stable
+resources:
+  homepage: https://forums.ahwoo.com/threads/deltavmap.978/
+  spacedock: https://spacedock.info/mod/4294/DeltaVMap
+  repository: https://github.com/Maximilian-Nesslauer/KSA-DeltaVMap
+tags:
+  - information
+ksp_version: 2026.6.9.4750
+x_netkan_version_edit:
+  find: '^v(.+)$'
+  replace: '${1}'

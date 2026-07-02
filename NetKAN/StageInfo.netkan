@@ -1,0 +1,17 @@
+identifier: StageInfo
+name: StageInfo
+abstract: Extra info in the stock Stage/Sequence window for Kitten Space Agency.
+author: Maxi
+license: MIT
+$kref: '#/ckan/github/Maximilian-Nesslauer/KSA-StageInfo'
+release_status: stable
+resources:
+  homepage: https://forums.ahwoo.com/threads/stageinfo.905/
+  spacedock: https://spacedock.info/mod/4256/StageInfo
+  repository: https://github.com/Maximilian-Nesslauer/KSA-StageInfo
+tags:
+  - information
+ksp_version: 2026.6.9.4750
+x_netkan_version_edit:
+  find: '^v(.+)$'
+  replace: '${1}'

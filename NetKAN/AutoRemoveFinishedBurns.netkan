@@ -1,0 +1,17 @@
+identifier: AutoRemoveFinishedBurns
+name: AutoRemoveFinishedBurns
+abstract: Auto-remove finished burns from the burn plan in Kitten Space Agency.
+author: Maxi
+license: MIT
+$kref: '#/ckan/github/Maximilian-Nesslauer/KSA-AutoRemoveFinishedBurns'
+release_status: stable
+resources:
+  homepage: https://forums.ahwoo.com/threads/autoremovefinishedburns.928/
+  spacedock: https://spacedock.info/mod/4255/AutoRemoveFinishedBurns
+  repository: https://github.com/Maximilian-Nesslauer/KSA-AutoRemoveFinishedBurns
+tags:
+  - control
+ksp_version: 2026.6.9.4750
+x_netkan_version_edit:
+  find: '^v(.+)$'
+  replace: '${1}'

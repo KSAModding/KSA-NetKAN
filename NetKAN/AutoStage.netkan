@@ -1,0 +1,17 @@
+identifier: AutoStage
+name: AutoStage
+abstract: Automatic staging for Kitten Space Agency.
+author: Maxi
+license: MIT
+$kref: '#/ckan/github/Maximilian-Nesslauer/KSA-AutoStage'
+release_status: stable
+resources:
+  homepage: https://forums.ahwoo.com/threads/autostage.891/
+  spacedock: https://spacedock.info/mod/4254/AutoStage
+  repository: https://github.com/Maximilian-Nesslauer/KSA-AutoStage
+tags:
+  - control
+ksp_version: 2026.6.9.4750
+x_netkan_version_edit:
+  find: '^v(.+)$'
+  replace: '${1}'

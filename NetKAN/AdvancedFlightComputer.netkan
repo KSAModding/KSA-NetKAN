@@ -1,0 +1,17 @@
+identifier: AdvancedFlightComputer
+name: AdvancedFlightComputer
+abstract: Extra maneuver planning tools for Kitten Space Agency.
+author: Maxi
+license: MIT
+$kref: '#/ckan/github/Maximilian-Nesslauer/KSA-AdvancedFlightComputer'
+release_status: stable
+resources:
+  homepage: https://forums.ahwoo.com/threads/advanced-flight-computer.783/
+  spacedock: https://spacedock.info/mod/4253/AdvancedFlightComputer
+  repository: https://github.com/Maximilian-Nesslauer/KSA-AdvancedFlightComputer
+tags:
+  - control
+ksp_version: 2026.6.9.4750
+x_netkan_version_edit:
+  find: '^v(.+)$'
+  replace: '${1}'
