@@ -1,0 +1,16 @@
+identifier: purrTTY
+name: purrTTY
+abstract: In-game terminal emulator for Kitten Space Agency, with real ConPTY/POSIX-pty shells and a cross-platform Game Console shell.
+author: tomservo
+license: MIT
+$kref: '#/ckan/github/meow-sci/purrtty'
+release_status: stable
+resources:
+  homepage: https://github.com/meow-sci/purrtty
+  repository: https://github.com/meow-sci/purrtty
+tags:
+  - utility
+ksp_version: 2026.7.3.4826
+x_netkan_version_edit:
+  find: '^v(.+)$'
+  replace: '${1}'
