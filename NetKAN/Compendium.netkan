@@ -1,0 +1,19 @@
+identifier: Compendium
+name: Compendium
+abstract: In-game window providng a handy atlas style catalog of loaded celestial bodies, as well as orbit line visibility toggles!
+author: Briar Thrain
+license: MIT
+$kref: '#/ckan/spacedock/4074'
+release_status: stable
+resources:
+  homepage: https://spacedock.info/mod/4074/Compendium
+  repository: https://github.com/meow-sci/Compendium
+depends:
+  - name: StarMap
+    min_version: "0.4.5"
+tags:
+  - utility
+ksp_version: 2026.7.3.4826
+x_netkan_version_edit:
+  find: '^v(.+)$'
+  replace: '${1}'
