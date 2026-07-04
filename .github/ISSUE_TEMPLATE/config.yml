@@ -1,0 +1,10 @@
+contact_links:
+  - name: CKAN client issues (KSA fork)
+    url: https://github.com/KSAModding/CKAN-KSA/issues
+    about: Problems with the CKAN client itself, rather than with one mod's metadata
+  - name: Kitten Space Agency Discord
+    url: https://discord.gg/kittenspaceagency
+    about: KSA community Discord
+  - name: KSA forum
+    url: https://forums.ahwoo.com/forums/guides-and-help.19
+    about: Guides and help section of the KSA forum
