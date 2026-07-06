@@ -3,7 +3,7 @@
 This repository holds the `.netkan` metadata templates used by the NetKAN/CKAN indexer for [Kitten Space Agency](https://ahwoo.com/app/100000/kitten-space-agency).
 
 Each `.netkan` file describes where to find a mod and how to install it.
-The indexer inflates these templates into stamped `.ckan` files in [KSA-CKAN-meta](https://github.com/KSAModding/KSA-CKAN-meta).
+The indexer inflates these templates into stamped `.ckan` files in [KSA-CKAN-meta](https://github.com/KSP-CKAN/KSA-CKAN-meta).
 
 If you're wondering what the CKAN is, start with [this README](https://github.com/KSP-CKAN/CKAN/blob/master/README.md).
 
