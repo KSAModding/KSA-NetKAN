@@ -1,0 +1,19 @@
+identifier: AircraftHUD
+name: AircraftHUD
+abstract: A heads-up display for aircraft in Kitten Space Agency.
+author: UriahGnu
+license: MIT
+$kref: '#/ckan/github/uriahgnu/KSA_AircraftHUD'
+release_status: stable
+resources:
+  homepage: https://forums.ahwoo.com/threads/aircraft-hud.618/
+  repository: https://github.com/uriahgnu/KSA_AircraftHUD
+tags:
+  - information
+ksp_version: 2026.7.5.4892
+
+depends:
+  - name: StarMap
+    min_version: "0.4.5"
+  - name: ModMenu
+    min_version: "0.2.1"
