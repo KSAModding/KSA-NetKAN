@@ -1,0 +1,20 @@
+identifier: ModMenu
+name: ModMenu
+abstract: Adds a Mods tab to the menu bar at the top of Kitten Space Agency.
+author: MrJeranimo
+license: MIT
+$kref: '#/ckan/github/MrJeranimo/ModMenu/asset_match/ModMenu\.zip'
+release_status: stable
+resources:
+  homepage: https://github.com/MrJeranimo/ModMenu
+  repository: https://github.com/MrJeranimo/ModMenu
+tags:
+  - library
+ksp_version: 2026.7.5.4892
+x_netkan_version_edit:
+  find: '^v(.+)$'
+  replace: '${1}'
+
+depends:
+  - name: StarMap
+    min_version: "0.4.5"

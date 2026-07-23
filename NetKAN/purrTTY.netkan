@@ -10,6 +10,10 @@ resources:
   repository: https://github.com/meow-sci/purrtty
 depends:
   - name: StarMap
+    min_version: "0.4.5"
+recommends:
+  - name: ModMenu
+    min_version: "0.2.1"
 tags:
   - utility
 ksp_version: 2026.7.3.4826

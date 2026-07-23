@@ -1,6 +1,6 @@
 identifier: StageInfo
 name: StageInfo
-abstract: Extra info in the stock Stage/Sequence window for Kitten Space Agency.
+abstract: Extra info and flight performance readouts in the stock staging window for Kitten Space Agency.
 author: Maxi
 license: MIT
 $kref: '#/ckan/github/Maximilian-Nesslauer/KSA-StageInfo'
@@ -11,7 +11,7 @@ resources:
   repository: https://github.com/Maximilian-Nesslauer/KSA-StageInfo
 tags:
   - information
-ksp_version: 2026.7.3.4826
+ksp_version: 2026.7.5.4892
 x_netkan_version_edit:
   find: '^v(.+)$'
   replace: '${1}'
