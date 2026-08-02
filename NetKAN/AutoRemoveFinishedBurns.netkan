@@ -19,4 +19,4 @@ x_netkan_version_edit:
 depends:
   - name: StarMap
     min_version: "0.4.5"
-    max_version: "0.4.5"
+    max_version: "0.4.6"

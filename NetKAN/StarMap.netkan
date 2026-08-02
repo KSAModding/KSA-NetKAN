@@ -3,14 +3,14 @@ name: StarMap
 abstract: Mod loader that runs code mods for Kitten Space Agency.
 author: klaaswhite
 license: MIT
-$kref: '#/ckan/github/StarMapLoader/StarMap/asset_match/StarMapStandalone'
+$kref: '#/ckan/github/StarMapLoader/StarMap/asset_match/StarMap(Standalone)?-'
 release_status: stable
 resources:
   homepage: https://github.com/StarMapLoader/StarMap
   repository: https://github.com/StarMapLoader/StarMap
 tags:
   - library
-ksp_version: 2026.7.3.4826
+ksp_version: 2026.8.3.5117
 install:
   - find_regexp: '.*'
     install_to: mods/StarMap
