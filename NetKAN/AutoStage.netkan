@@ -11,7 +11,7 @@ resources:
   repository: https://github.com/Maximilian-Nesslauer/KSA-AutoStage
 tags:
   - control
-ksp_version: 2026.8.3.5117
+ksp_version: 2026.8.5.5168
 x_netkan_version_edit:
   find: '^v(.+)$'
   replace: '${1}'
