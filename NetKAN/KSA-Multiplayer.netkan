@@ -1,0 +1,24 @@
+identifier: KSA-Multiplayer
+name: KSA Multiplayer
+abstract: Fly together in Kitten Space Agency - shared universe, cross-player docking, craft sharing and chat, with a dedicated server for Windows and Linux.
+author: racerx2
+license: restricted
+$kref: '#/ckan/github/racerx2/KSA-Multiplayer-Mod/asset_match/Multiplayer\.zip'
+release_status: stable
+resources:
+  homepage: https://github.com/racerx2/KSA-Multiplayer-Mod
+  repository: https://github.com/racerx2/KSA-Multiplayer-Mod
+  bugtracker: https://github.com/racerx2/KSA-Multiplayer-Mod/issues
+  spacedock: https://spacedock.info/mod/4068/KSA-Multiplayer-Mod
+depends:
+  - name: StarMap
+    min_version: "0.4.5"
+tags:
+  - plugin
+ksp_version: 2026.8.19.5261
+x_netkan_version_edit:
+  find: '^v(.+)$'
+  replace: '${1}'
+install:
+  - find: Multiplayer
+    install_to: mods
