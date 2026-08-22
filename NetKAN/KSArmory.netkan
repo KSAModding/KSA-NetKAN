@@ -1,0 +1,22 @@
+identifier: KSArmory
+name: KSArmory
+abstract: Weapons for Kitten Space Agency - search radar, guided and unguided munitions, proximity and contact fuses, and a ballistic computer.
+author: Laurens
+license: MIT
+$kref: '#/ckan/github/LaurensDeV/KSArmory/asset_match/KSArmory-.*\.zip'
+release_status: stable
+resources:
+  homepage: https://ksarmory.com
+  spacedock: https://spacedock.info/mod/4460/KSArmory
+  repository: https://github.com/LaurensDeV/KSArmory
+  bugtracker: https://github.com/LaurensDeV/KSArmory/issues
+tags:
+  - parts
+ksp_version: 2026.8.19.5261
+x_netkan_version_edit:
+  find: '^v(.+)$'
+  replace: '${1}'
+
+depends:
+  - name: StarMap
+    min_version: "0.4.6"
