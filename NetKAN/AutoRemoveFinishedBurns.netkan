@@ -11,7 +11,7 @@ resources:
   repository: https://github.com/Maximilian-Nesslauer/KSA-AutoRemoveFinishedBurns
 tags:
   - control
-ksp_version: 2026.8.19.5261
+ksp_version: 2026.8.22.5348
 x_netkan_version_edit:
   find: '^v(.+)$'
   replace: '${1}'
