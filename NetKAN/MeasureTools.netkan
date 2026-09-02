@@ -11,7 +11,7 @@ resources:
   repository: https://github.com/Maximilian-Nesslauer/KSA-MeasureTools
 tags:
   - information
-ksp_version: 2026.8.22.5348
+ksp_version: 2026.9.4.5400
 x_netkan_version_edit:
   find: '^v(.+)$'
   replace: '${1}'
