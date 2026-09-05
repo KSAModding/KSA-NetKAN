@@ -22,7 +22,7 @@ jobs:
       - name: Get KSA-CKAN-meta repo
         uses: actions/checkout@v6
         with:
-          repository: KSAModding/KSA-CKAN-meta
+          repository: KSP-CKAN/KSA-CKAN-meta
           path: .KSA-CKAN-meta
       - name: Cache downloads
         if: ${{ github.event_name == 'pull_request' }}
